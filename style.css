@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(to right, #00f7ff, #00ff99);
+}
+#container{
+    text-align:center;
+    margin-top: 10%;
+    box-shadow: 10px 10px 10px 5px black;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#display{
+    background: white;
+    position: relative;
+    width:  100%;
+    height: 80px;
+    text-align: right;
+    font-size: 50px;
+}
+
+
+#buttonContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.button{
+    text-align: center;
+    line-height: 80px;
+    border: none; 
+    cursor: pointer; 
+    font-size: 20px; 
+}
+.button:hover{
+    background-color: lightgrey;
+}
+
+
+
+.buttonAC{
+    grid-column: 1/span 2;
+    background-color: pink;
+    border: none;
+    font-size: 20px;
+}
+.buttonAC:hover{
+    background-color: hotpink;
+}
+
+
+.buttonEQL{
+    grid-column: span 2;
+    background-color: #00f7ff;
+    border: none;
+    font-size: 20px;
+    
+}
+.buttonEQL:hover{
+    background-color: lightblue;
+}
+
+
+.buttonC {
+    background-color: pink;
+    border: none;
+    font-size: 20px;
+}
+.buttonC:hover{
+    background-color: hotpink;
+}
